@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  background-color: #00adb5;
+  border-radius: 8px;
+  margin-top: 10%;
+  padding: 20px;
+}
+
+.fitness-icon {
+  background-color: #00adb5;
+  color: #393e46;
+  margin-bottom: 7px;
+}
+
+.fittracker {
+  background-color: #00adb5;
+  color: white;
+}
+
+p {
+  background-color: #00adb5;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button {
+  display: flex;
+  height: 50px;
+  padding: 0;
+  background: #393e46;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: gray;
+  transition-duration: 0.5s;
+}
+
+.button-icon {
+  background: rgba(0, 0, 0, 0.08);
+  color: white;
+}
+
+.button-text {
+  color: white;
+}
+
+.button-text,
+.button-icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 100%;
+}
